@@ -2,27 +2,27 @@
 class Ripple < Formula
   desc "Send notifications to your devices and manage your messages"
   homepage "https://ripple.do/docs/cli-reference"
-  version "0.3.1"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ripplepush/cli/releases/download/v0.3.1/ripple-darwin-arm64.tar.gz"
-      sha256 "2bac57e4a664d388612ad2ac11099960584f668de0f9c3b0a5f2f713617c74a0"
+      url "https://github.com/ripplepush/cli/releases/download/v0.4.0/ripple-darwin-arm64.tar.gz"
+      sha256 "77052b1f8df6ea222ddd69841d28a6910d9b2ccab23f5194196a16982f9061d2"
     end
     on_intel do
-      url "https://github.com/ripplepush/cli/releases/download/v0.3.1/ripple-darwin-x64.tar.gz"
-      sha256 "a33c46709637781c81e0ca7477243c293107d4d49175752ce584d0c7e6356356"
+      url "https://github.com/ripplepush/cli/releases/download/v0.4.0/ripple-darwin-x64.tar.gz"
+      sha256 "e90f7b674590a3eeca0cf318114f8bf698c2b34e66a79b3ebe50b7fd27b77b8f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ripplepush/cli/releases/download/v0.3.1/ripple-linux-arm64.tar.gz"
-      sha256 "360df5a8b47dadfec3ccf5f0a41cb0ab29b3ece18261ce3147c9f44c88bb2c00"
+      url "https://github.com/ripplepush/cli/releases/download/v0.4.0/ripple-linux-arm64.tar.gz"
+      sha256 "270088c62d02a14e8d3c608f8fe332d6dccce13e1159491d02693b00d35e6190"
     end
     on_intel do
-      url "https://github.com/ripplepush/cli/releases/download/v0.3.1/ripple-linux-x64.tar.gz"
-      sha256 "000df305aebeecf0caee8d759d2db5b1d8bd2f64410f7f13c9f93ab27ad6dbdf"
+      url "https://github.com/ripplepush/cli/releases/download/v0.4.0/ripple-linux-x64.tar.gz"
+      sha256 "7936b7159732b4fe465d325e07dbe86779137a27085be39158d270261e761512"
     end
   end
 
